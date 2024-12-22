@@ -1,0 +1,5 @@
+# github.com/contribsys/faktory v1.9.1
+## explicit; go 1.22
+github.com/contribsys/faktory/client
+github.com/contribsys/faktory/internal/pool
+github.com/contribsys/faktory/util
