@@ -11,7 +11,6 @@ func main() {
 		panic(err)
 	}
 	for i := 1; i <= 10; i++ {
-
 		job := faktory.NewJob("report", fmt.Sprintf("test%d@mail.ru", i))
 		job.Queue = "critical"
 		err = client.Push(job)
@@ -19,5 +18,4 @@ func main() {
 			fmt.Println("Ошибка постановки задачи в очередь")
 		}
 	}
-
 }
